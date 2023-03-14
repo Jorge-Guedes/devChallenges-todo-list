@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="#">
+    <a href="https://jorge-guedes-todo-app.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="#">
+    <a href="https://devchallenges.io/solutions/fCHKhUwHgp8DMbs4ookR">
       Solution
     </a>
     <span> | </span>
