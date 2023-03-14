@@ -1,0 +1,38 @@
+.todo {
+  font-size: clamp(1.4rem, 5vw, 1.8rem);
+  font-weight: 500;
+
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.todo input[type="checkbox"] {
+  margin-right: 0.6rem;
+  width: clamp(1.2rem, 4vw, 1.6rem);
+  height: clamp(1.2rem, 4vw, 1.6rem);
+}
+
+.todo_checked {
+  text-decoration: line-through;
+}
+
+.delete {
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  padding: 0.5rem;
+  color: var(--c3);
+  transition: 0.3s;
+}
+
+.delete:hover,
+.delete:focus {
+  color: var(--p2);
+}

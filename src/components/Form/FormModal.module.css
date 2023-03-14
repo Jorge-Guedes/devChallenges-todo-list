@@ -1,0 +1,87 @@
+.modal_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header_modal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 2rem;
+}
+
+.header_modal h2 {
+  color: var(--c1);
+}
+
+.header_modal button {
+  font-size: 2.4rem;
+  color: var(--c3);
+  transition: 0.3s;
+}
+
+.header_modal button:hover,
+.header_modal button:focus {
+  color: var(--c1);
+}
+
+.content_modal {
+  display: flex;
+  flex-direction: column;
+}
+
+.content_modal p {
+  color: var(--c1);
+  margin-bottom: 2rem;
+  padding-block: 2rem;
+  border-top: 0.1rem solid var(--c3);
+  border-bottom: 0.1rem solid var(--c3);
+}
+
+.content_modal form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(0.5rem, 1vw, 2rem);
+  justify-content: flex-end;
+}
+
+.content_modal button,
+.btn_delete {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: 0;
+  outline: none;
+  border-radius: 0.4rem;
+  transition: 0.3s;
+  cursor: pointer;
+  padding-block: 1.2rem;
+  width: 12.4rem;
+  height: 4rem;
+  align-self: flex-end;
+}
+
+.btn_delete {
+  background: var(--p2);
+  color: #fff;
+}
+.btn_delete:hover,
+.btn_delete:focus {
+  background: #b32020;
+}
+
+.btn_close {
+  background: transparent;
+  color: var(--c1)333;
+}
+.btn_close:hover,
+.btn_close:focus {
+  background: #eee;
+}
+
+@media (max-width: 360px) {
+  .content_modal button {
+    width: 100%;
+  }
+}
